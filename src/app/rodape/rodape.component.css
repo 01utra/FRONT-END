@@ -1,0 +1,31 @@
+.botao-color{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: #4E51BF;
+    border-radius: 50px;
+    width: 251px;
+    height: 50px;
+    left: 594px;
+    top: 2892px;
+    color: #fff;
+    font-size: 16px;
+    align-items: center;
+    }
+
+    .botao-color:hover{
+        background-color:#000;
+        color: #fff
+    }
+
+.component-footer{
+    font-weight: 700;
+}
+
+.component-footer p:hover{
+    color: #808080;
+}
+
+.estados{
+    margin-top: 70px;
+}
+
