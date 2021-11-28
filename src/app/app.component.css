@@ -1,0 +1,22 @@
+.menu-cor{
+    background: rgb(255,146,164);
+    background: linear-gradient(90deg, rgba(255,146,164,1) 0%, rgba(78,81,191,1) 100%);
+}
+
+.navbar-toggler{
+    margin-left: 100px;
+    border-color: #ffe9ce;
+}
+
+.entrar{
+    margin-right: 100px;
+    background-color: rgba(78,81,191,1) 0%;
+    border-color: #ffe9ce;
+    font-weight: 600;
+    color:aliceblue;
+}
+
+.entrar:hover{
+    background-color: aliceblue;
+    color: black;
+}
