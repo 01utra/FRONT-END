@@ -1,17 +1,52 @@
 <div class="sticky-top">
-    <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-            <h5 class="text-white h4">Collapsed content</h5>
-            <span class="text-muted">Toggleable via the navbar brand.</span>
-        </div>        
-    </div>
     <nav class="navbar navbar-dark menu-cor">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler bg-transparent  " >
         </button>
         <img src="https://i.imgur.com/2g6ttf5.png" width="100px" alt="">
         <button class="btn my-2 my-sm-0 entrar" type="submit">Entrar</button>
     </nav>
+
+    <input type="checkbox" id="burger-toggle">
+  <label for="burger-toggle" class="burger-menu">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </label>
+  <div class="menu">
+    <div class="menu-inner">
+      <ul class="menu-nav">
+        <li class="menu-nav-item"><a class="menu-nav-link"  routerLink='/inicio'><span>
+              <div>Home</div>
+            </span></a></li>
+        <li class="menu-nav-item"><a class="menu-nav-link" routerLink='/eventos'><span>
+              <div>Eventos</div>
+            </span></a></li>
+            <!-- <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
+              <div>Contato</div>
+            </span></a></li> -->
+            <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
+              <div data-toggle="modal" data-target="#exampleModal">Entrar</div>
+            </span></a></li>
+      </ul>
+      <!-- <div class="gallery">
+        <div class="title">
+          <p>Redes Sociais</p>
+        </div>
+        <div class="images">
+          <a class="image-link" target="_blank" height="10px" href="https://www.instagram.com/djricardoalcantara/">
+            <div class="image" data-label="Instagram"><img src="https://i.imgur.com/ZY4zOPu.gif" alt=""></div>
+          </a>
+          <a class="image-link" target="_blank" height="10px" href="https://www.facebook.com/ricardo.alcantara.967">
+            <div class="image" data-label="Facebook"><img  src="https://i.imgur.com/dviYR20.gif" alt=""></div>
+          </a>
+          <a class="image-link" target="_blank" height="10px" href="https://www.youtube.com/channel/UC3Np2j3lUdnJRxf89zXjH3g">
+            <div class="image" data-label="Vinil em Movimento"><img src="https://i.imgur.com/xAuy5OD.gif" alt=""></div>
+          </a>
+        </div>
+      </div> -->
+    </div>
+  </div>
+
 </div>
 
 
